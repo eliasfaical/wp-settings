@@ -1,0 +1,52 @@
+/* `Global`
+------------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700');
+
+body {
+  font-size: 100%;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+strong, b {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+textarea,
+input[type="text"],
+input[type="email"] {
+  outline: none;
+  box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.inner-section {
+  padding: 50px 0;
+}
+
+.btn-default {
+  color: #fff;
+  border-radius: 0;
+  padding: 7px 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #e6a303;
+}

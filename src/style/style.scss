@@ -1,0 +1,33 @@
+/*!
+Theme Name: Abracomex
+Theme URI: www.abracomex.org
+Author: the WordPress team
+Author URI: Elias Faiçal - http://eliasfaical.com.br/
+Description: Abracomex
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: abracomex
+Tags: Cursos, escola, abracomex
+*/
+
+
+// Bootstrap
+@import 'bootstrap/bootstrap';
+
+// npm
+@import '../../node_modules/owl-carousel-2/assets/owl.carousel.min.css';
+@import '../../node_modules/owl-carousel-2/assets/owl.theme.default.min.css';
+
+// Helpers
+@import 'helpers/colors';
+@import 'helpers/mixins';
+@import 'helpers/font';
+@import 'helpers/image-lightbox';
+
+// Layout
+@import 'layout/base';
+@import 'layout/header';
+@import 'layout/home';
+@import 'layout/page';
+@import 'layout/footer';

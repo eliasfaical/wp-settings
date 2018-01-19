@@ -1,0 +1,97 @@
+/* `Cursos`
+------------------------------------------------------------------------------ */
+// .page-template-default {
+//   #carousel-home .item {
+//     height: 450px;
+//   }
+// }
+
+.action-anuncio {
+  padding: 50px;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.action-curso {
+  padding: 50px 0;
+}
+
+.action-introducao {
+  background: #f4f4f4;
+
+  .sidebar {
+    height: 100%;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+
+    .title-section {
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-size: .9rem;
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      font-size: 1.1rem;
+      color: #E6A303;
+    }
+  }
+}
+
+.section-cursos {
+  .embed-responsive {
+    max-width: 700px;
+    margin: 20px auto 0;
+  }
+}
+
+
+.cursos-list {
+  background: #f1f1f1;
+
+  .detalhes-curso {
+    background: #E6A303;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+
+    h2 {
+      margin: 0;
+    }
+
+    a {
+      margin: 0;
+      padding: 15px 20px;
+      display: block;
+      font-size: 1.1rem;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-bottom: 1px solid #ffffff4d;
+    }
+
+    .description {
+      padding: 20px;
+      background: #fff;
+
+      p {
+        margin-bottom: 15px;
+        font-size: .9rem;
+      }
+
+      img {
+        width: 240px;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid #f1f1f1;
+        display: inline-block; 
+        vertical-align: top;
+      }
+    }
+  }
+}
