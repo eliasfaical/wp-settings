@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 	<main id="main" class="site-main">
-	
+
 		<section id="carousel-home" class="owl-carousel owl-theme">
-			<div class="item" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-page-mba.jpg)">
+			<div class="item" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/banner-page-mba.jpg)">
 				<div class="slider-inner banner-interno">
 					<div class="container">
 						<div class="row">
@@ -26,7 +26,7 @@
 
 		<section class="action-anuncio">
 			<div class="container">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/anuncio-curso.jpg" alt="" class="img-fluid">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/anuncio-curso.jpg" alt="" class="img-fluid">
 			</div>
 		</section>
 
@@ -80,7 +80,7 @@
 					<div class="col-md-4">
 						<div class="item-curso">
 							<a href="javascript:();" title="<?php the_title(); ?>">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mba-marketing-1.jpg" alt="" class="img-fluid">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/mba-marketing-1.jpg" alt="" class="img-fluid">
 							</a>
 							<div class="item-descricao">
 								<h4>Gestão de Marketing com foco internacional</h4>
@@ -92,7 +92,7 @@
 					<div class="col-md-4">
 						<div class="item-curso">
 							<a href="javascript:();" title="<?php the_title(); ?>">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mba-logistica-1.jpg" alt="" class="img-fluid">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/mba-logistica-1.jpg" alt="" class="img-fluid">
 							</a>
 							<div class="item-descricao">
 								<h4>Gestão de Marketing com foco internacional</h4>
@@ -104,7 +104,7 @@
 					<div class="col-md-4">
 						<div class="item-curso">
 							<a href="javascript:();" title="<?php the_title(); ?>">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/formacao-op-portuaria-1.jpg" alt="" class="img-fluid">
+								<img src="<?php echo get_template_directory_uri(); ?>/images/formacao-op-portuaria-1.jpg" alt="" class="img-fluid">
 							</a>
 							<div class="item-descricao">
 								<h4>Gestão de Marketing com foco internacional</h4>
@@ -136,10 +136,10 @@
 					<h2><i class="fa fa-caret-right" aria-hidden="true"></i> Opção para Módulo no Exterior</h2>
 					<div class="description">
 						<h4>Você estudando na MIB em Boston, EUA.</h4>
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/img1.jpg" alt="" class="img-fluid">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/img2.jpg" alt="" class="img-fluid">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/img3.jpg" alt="" class="img-fluid">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.jpg" alt="" class="img-fluid">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/img1.jpg" alt="" class="img-fluid">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/img2.jpg" alt="" class="img-fluid">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/img3.jpg" alt="" class="img-fluid">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/img4.jpg" alt="" class="img-fluid">
 					</div>
 
 					<h2><i class="fa fa-caret-right" aria-hidden="true"></i> Conheça o Portal do Aluno</h2>
@@ -192,7 +192,7 @@
 						<p>O Treinamento de Entrevista é um serviço que simula uma entrevista de emprego para orientar o profissional sobre a melhor forma de se apresentar e expor a sua experiência profissional em uma situação real diante de um entrevistador.</p>
 						<p>* A ABRACOMEX fornece acesso durante trinta dias gratuitamente para alunos matriculados em cursos próprios, a partir do 3 mês de estudo e adimplentes.</p>
 					</div>
-					
+
 					<h2><i class="fa fa-caret-right" aria-hidden="true"></i> Investimentos</h2>
 					<div class="description">
 						<p><strong>R$ 150,00 (matrícula) + 15x R$ 460,00</strong></p>

@@ -32,13 +32,13 @@
 						<?php if ( is_front_page() && is_home() ) : ?>
 							<h1 class="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<img src="<?php echo get_template_directory_uri() ;?>/assets/images/logo-abracomex.png" class="img-fluid" alt="<?php bloginfo( 'name' ); ?>">
+									<img src="<?php echo get_template_directory_uri() ;?>/images/logo-abracomex.png" class="img-fluid" alt="<?php bloginfo( 'name' ); ?>">
 								</a>
 							</h1>
 						<?php else : ?>
 							<p class="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<img src="<?php echo get_template_directory_uri() ;?>/assets/images/logo-abracomex.png" class="img-fluid" alt="<?php bloginfo( 'name' ); ?>">
+									<img src="<?php echo get_template_directory_uri() ;?>/images/logo-abracomex.png" class="img-fluid" alt="<?php bloginfo( 'name' ); ?>">
 								</a>
 							</p>
 						<?php endif; ?>

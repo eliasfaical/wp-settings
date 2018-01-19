@@ -50,8 +50,9 @@ var pluginsProd = [
 Header & Footer JavaScript Boundles
 -------------------------------------------------------------------------------------------------- */
 var headerJS = [
-	'node_modules/jquery/dist/jquery.js',
-	'node_modules/owl-carousel-2/owl.carousel.min.js'
+	'node_modules/jquery/dist/jquery.min.js',
+  'node_modules/owl-carousel-2/owl.carousel.min.js',
+  'node_modules/jquery-collapse/src/jquery.collapse.js'
 ];
 var footerJS = [
 	'src/js/**'
